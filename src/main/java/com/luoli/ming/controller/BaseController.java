@@ -5,7 +5,7 @@ package com.luoli.ming.controller;
  *
  */
 public abstract class BaseController {
-
+	
 	
 	
 	
