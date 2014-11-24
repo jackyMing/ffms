@@ -14,7 +14,7 @@
     </servlet>  -->
     <servlet>  
         <servlet-name>helloworld</servlet-name>  
-        <servlet-class>com.ming.servlet.TestServlet</servlet-class>  
+        <servlet-class>com.luoli.ming.servlet.TestServlet</servlet-class>  
     </servlet>  
   
     <servlet-mapping>  
