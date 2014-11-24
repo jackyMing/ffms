@@ -6,6 +6,22 @@
   <name>ffms</name>
   <packaging>war</packaging>
   <description>it is use to family</description>
+  <properties>
+		<spring.version>4.1.2.RELEASE</spring.version>
+		<struts.version>2.3.16.1</struts.version>
+		<tiles.version>2.2.2</tiles.version>
+		<velocity.version>1.7</velocity.version>
+		<velocitytools.version>2.0</velocitytools.version>
+		<mysql.version>5.1.12</mysql.version>
+		<mybatis.version>3.0.5</mybatis.version>
+		<hessian.version>4.0.7</hessian.version>
+		<jetty.version>6.1.25</jetty.version>
+		<junit.version>4.8.2</junit.version>
+		<slf4j.version>1.6.1</slf4j.version>
+		<logback.version>0.9.24</logback.version>
+		<quartz.version>1.8.5</quartz.version>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	</properties>
   <!-- 依赖项定义 -->
   <dependencies>
 	  <dependency>  
@@ -20,8 +36,21 @@
 		<artifactId>jetty-maven-plugin</artifactId>
 		<version>7.1.6.v20100715</version>
 	 </dependency>
+	 <!-- spring  -->
+	 <dependency>
+        <groupId>org.springframework</groupId>
+        <artifactId>spring-context</artifactId>
+        <version>${spring.version}</version>
+     </dependency>
+	 <dependency>
+		<groupId>org.springframework</groupId>
+		<artifactId>spring-web</artifactId>
+		<version>${spring.version}</version>
+	</dependency>
+	 
+	 
+	 
   </dependencies>
-  
   <!-- base build  -->
   <build>
   	<finalName>test</finalName>
